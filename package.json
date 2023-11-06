@@ -1,17 +1,18 @@
 {
   "name": "proto-watcher",
   "version": "1.0.0",
-  "description": "",
+  "description": "Proto Watcher CLI is a command-line tool that watches for changes in Protocol Buffers (.proto) files and compiles them to TypeScript or JavaScript using the Protobuf.js library.",
   "main": "index.js",
   "bin": {
     "proto-watcher": "./index.js"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "protobuf",
+    "typescript",
+    "javascript"
+  ],
+  "author": "nabameet",
+  "license": "MIT",
   "devDependencies": {
     "chokidar": "^3.5.3",
     "commander": "^11.1.0",
